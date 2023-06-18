@@ -4,7 +4,7 @@ capacity, so you must pick a banquet wisely.
 
 Write a program that takes a list 'banquet_capacities', and tries to find a
 banquet that can host 300 guests, and is as low as possible. If such a 
-banquet exists, print its capacaity. If no such banquet exists, print an
+banquet exists, print its capacity. If no such banquet exists, print an
 appropriate statement.
 
 NOTE THAT WE HANDLE THE USER INPUT FOR YOU, AND YOU CAN WORK ON THE
