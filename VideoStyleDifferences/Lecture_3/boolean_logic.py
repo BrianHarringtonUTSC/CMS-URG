@@ -17,14 +17,13 @@ Don't forget to check your code by running a few examples, including the one
 given above. '''
 
 ''' USER INPUT CODE '''
-cont = True
 banquet_capacities = []
-user_prompt = 'Please enter banquet capacity: '
-cont_prompt = 'Do you wish to keep adding? [Y/N]: '
-while (cont):
-    banquet_capacities.append (int (input (user_prompt)))
-    if (input (cont_prompt) == 'N'):
-        cont = False
+user_prompt = 'Please enter banquet capacity, type \'N\' to stop: '
+while (True):
+    user_input = input(user_prompt)
+    if (user_input == 'N'):
+        break
+    banquet_capacities.append (int (user_input))
 
 ''' PLEASE WRITE BELOW THIS COMMENT '''
 
