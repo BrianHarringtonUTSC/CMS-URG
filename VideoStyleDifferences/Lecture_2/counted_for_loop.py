@@ -14,7 +14,7 @@ given above. '''
 
 ''' PLEASE WRITE BELOW THIS COMMENT '''
 
-''' We are testing user input, and a for loop, sample solution follows.'''
+''' We are testing user input, and counted for loop '''
 
 total_GPA = 0 # accumulator, we divide this by num_courses to get the cGPA
 for i in range(0, 6, 1):
