@@ -17,7 +17,7 @@ given above. '''
 ''' We are testing user input, and a for loop, sample solution follows.'''
 
 total_GPA = 0 # accumulator, we divide this by num_courses to get the cGPA
-for i in range(6):
+for i in range(0, 6, 1):
     # GPA can be fractional
     user_prompt = "Enter course GPA: "
     user_input = input(user_prompt)
