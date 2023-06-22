@@ -6,7 +6,7 @@ the average of those GPAs. Don't forget to indicate to the user how they
 should input the GPAs by using a prompt when asking for input, as follows:
     input("some prompt for the user")
 
-If the GPAs given by the user are: 4.0, 3.1, 3.0, 3.0, 4.0, 3.0
+If the GPAs given by the user are: 4.0, 4.0, 3.0, 3.0, 3.0, 3.1
 The expected output is: 3.35
 
 Don't forget to check your code by running a few examples, including the one
@@ -14,15 +14,12 @@ given above. '''
 
 ''' PLEASE WRITE BELOW THIS COMMENT '''
 
-''' We are testing user input, and counted for loop '''
-
-total_GPA = 0 # accumulator, we divide this by num_courses to get the cGPA
-for i in range(0, 6, 1):
-    # GPA can be fractional
+total_GPA = 0
+for i in range (0, 6, 1):
     user_prompt = "Enter course GPA: "
-    user_input = input(user_prompt)
-    course_GPA = float(user_input)
-    total_GPA += course_GPA
+    user_input = input (user_prompt)
+    course_GPA = float (user_input)
+    total_GPA = total_GPA + course_GPA
 cGPA = total_GPA / 6
-output_string = "Your cGPA is: " + str(cGPA)
-print(output_string)
+output_string = "Your cGPA is: " + str (cGPA)
+print (output_string)
